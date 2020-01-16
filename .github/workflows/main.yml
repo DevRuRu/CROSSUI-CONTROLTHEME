@@ -2,4 +2,5 @@ name: CI
 on:
   push:
     branches: [main]
-  pull_requ
+  pull_request:
+    branc
