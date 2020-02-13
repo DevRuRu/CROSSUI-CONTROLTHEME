@@ -12,4 +12,4 @@ jobs:
       matrix:
         os: [ubuntu-latest]
     steps:
-      - uses: actio
+      - uses: actions/checkout@v
