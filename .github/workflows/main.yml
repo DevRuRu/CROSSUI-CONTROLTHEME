@@ -13,4 +13,4 @@ jobs:
         os: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
-      -
+      - name: Install
