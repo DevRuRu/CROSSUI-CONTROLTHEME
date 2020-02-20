@@ -16,4 +16,4 @@ jobs:
       - name: Install
         run: |
           sudo apt install -y libgc-dev
-          g
+          git clone https
