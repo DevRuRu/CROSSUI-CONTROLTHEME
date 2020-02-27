@@ -18,4 +18,5 @@ jobs:
           sudo apt install -y libgc-dev
           git clone https://github.com/vlang/v /tmp/vlang
           pushd /tmp/vlang
-          make && ./v -ver
+          make && ./v -version
+  
