@@ -19,4 +19,4 @@ jobs:
           git clone https://github.com/vlang/v /tmp/vlang
           pushd /tmp/vlang
           make && ./v -version
-  
+          sudo
