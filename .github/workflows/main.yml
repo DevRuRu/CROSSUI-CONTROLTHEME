@@ -19,4 +19,5 @@ jobs:
           git clone https://github.com/vlang/v /tmp/vlang
           pushd /tmp/vlang
           make && ./v -version
-          sudo ./v sym
+          sudo ./v symlink
+        
