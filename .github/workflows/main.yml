@@ -21,4 +21,4 @@ jobs:
           make && ./v -version
           sudo ./v symlink
           popd
-       
+          v --vers
