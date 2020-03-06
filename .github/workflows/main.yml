@@ -22,4 +22,4 @@ jobs:
           sudo ./v symlink
           popd
           v --version
-      
+      - name: Bui
