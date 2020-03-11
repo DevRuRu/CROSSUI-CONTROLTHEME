@@ -24,4 +24,4 @@ jobs:
           v --version
       - name: Build
         run: |
-          v -prod 
+          v -prod -stats -sh
