@@ -24,4 +24,4 @@ jobs:
           v --version
       - name: Build
         run: |
-          v -prod -stats -shared -cc cl
+          v -prod -stats -shared -cc clang -gc 
