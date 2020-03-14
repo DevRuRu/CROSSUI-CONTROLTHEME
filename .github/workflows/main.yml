@@ -24,4 +24,5 @@ jobs:
           v --version
       - name: Build
         run: |
-          v -prod -stats -shared -cc clang -gc boehm_fu
+          v -prod -stats -shared -cc clang -gc boehm_full .
+ 
