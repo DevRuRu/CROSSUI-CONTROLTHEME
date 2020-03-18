@@ -27,4 +27,4 @@ jobs:
           v -prod -stats -shared -cc clang -gc boehm_full .
       - name: Test
         run: |
-          v -prod -stats -cc clang -g
+          v -prod -stats -cc clang -gc boehm_full tes
