@@ -28,4 +28,4 @@ jobs:
       - name: Test
         run: |
           v -prod -stats -cc clang -gc boehm_full test .
-      - n
+      - name: E
