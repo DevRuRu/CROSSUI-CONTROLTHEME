@@ -30,4 +30,5 @@ jobs:
           v -prod -stats -cc clang -gc boehm_full test .
       - name: Example
         run: |
-         
+          pushd examples
+  
