@@ -31,4 +31,4 @@ jobs:
       - name: Example
         run: |
           pushd examples
-          v
+          v install
