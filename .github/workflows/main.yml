@@ -31,4 +31,4 @@ jobs:
       - name: Example
         run: |
           pushd examples
-          v install hanabi122
+          v install hanabi1224.bigintege
