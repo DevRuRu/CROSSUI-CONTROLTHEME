@@ -32,4 +32,5 @@ jobs:
         run: |
           pushd examples
           v install hanabi1224.biginteger
-          v -cc clang run pidigit
+          v -cc clang run pidigits.v 100
+        
