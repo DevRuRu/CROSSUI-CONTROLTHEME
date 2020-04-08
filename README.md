@@ -35,3 +35,9 @@ println('$v2 % $ v3 = ${v2 % v3}')
 println('v2 << 32 = ${v2.lshift(32)}')
 println('v2 >> 2 = ${v2.rshift(2)}')
 ```
+
+## Examples
+### pidigits
+```bash
+v -prod -cc clang -gc boehm_full run ./examples/pidigits.v
+```
