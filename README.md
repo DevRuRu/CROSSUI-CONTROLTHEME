@@ -20,3 +20,18 @@ import hanabi1224.biginteger
 ```v
 v1 := biginteger.from_int(-3)
 // Note that '_' and ',' are allowed, only base-10 is currently supported.
+v2 := biginteger.from_str("-23333333333333333333333333333333333333") 
+v3 := biginteger.from_u64(9876554321)
+// constants
+zero := biginteger.zero
+// + - * / %, TODO: pow etc.
+println('$v2 + $ v3 = ${v2 + v3}')
+println('$v2 - $ v3 = ${v2 - v3}')
+println('$v2 * $ v3 = ${v2 * v3}')
+println('$v2 / $ v3 = ${v2 / v3}')
+println('$v2 % $ v3 = ${v2 % v3}')
+
+// bit shifting TODO: bit and / or ops
+println('v2 << 32 = ${v2.lshift(32)}')
+println('v2 >> 2 = ${v2.rshift(2)}')
+```
