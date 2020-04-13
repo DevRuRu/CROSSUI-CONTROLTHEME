@@ -2,4 +2,4 @@ module biginteger
 
 import math.bits
 
-pub enum Big
+pub enum BigIntegerSign {
