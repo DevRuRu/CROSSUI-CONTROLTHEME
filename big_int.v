@@ -4,4 +4,5 @@ import math.bits
 
 pub enum BigIntegerSign {
 	negative = -1
-	zero = 
+	zero = 0
+	positive =
