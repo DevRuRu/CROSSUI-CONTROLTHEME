@@ -8,4 +8,5 @@ pub enum BigIntegerSign {
 	positive = 1
 }
 
-pub struct BigI
+pub struct BigInteger {
+mu
