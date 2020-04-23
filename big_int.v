@@ -9,4 +9,5 @@ pub enum BigIntegerSign {
 }
 
 pub struct BigInteger {
-mu
+mut:
+	bits []u
