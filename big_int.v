@@ -10,4 +10,6 @@ pub enum BigIntegerSign {
 
 pub struct BigInteger {
 mut:
-	bits []u
+	bits []u32
+pub:
+	
