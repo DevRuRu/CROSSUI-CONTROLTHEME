@@ -12,4 +12,7 @@ pub struct BigInteger {
 mut:
 	bits []u32
 pub:
-	sign BigIntegerSi
+	sign BigIntegerSign
+}
+
+pub fn (big 
