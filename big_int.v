@@ -15,4 +15,4 @@ pub:
 	sign BigIntegerSign
 }
 
-pub fn (big BigInteger)
+pub fn (big BigInteger) trailing_ze
