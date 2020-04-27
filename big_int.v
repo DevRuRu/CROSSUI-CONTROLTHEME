@@ -15,4 +15,5 @@ pub:
 	sign BigIntegerSign
 }
 
-pub fn (big BigInteger) trailing_ze
+pub fn (big BigInteger) trailing_zeros() u64 {
+	if b
