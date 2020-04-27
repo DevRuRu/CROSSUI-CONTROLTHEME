@@ -16,4 +16,4 @@ pub:
 }
 
 pub fn (big BigInteger) trailing_zeros() u64 {
-	if b
+	if big == zero 
