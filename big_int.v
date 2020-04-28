@@ -18,3 +18,6 @@ pub:
 pub fn (big BigInteger) trailing_zeros() u64 {
 	if big == zero {
 		return 0
+	}
+
+	mut sum := u64(0
