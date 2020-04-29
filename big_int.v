@@ -20,4 +20,5 @@ pub fn (big BigInteger) trailing_zeros() u64 {
 		return 0
 	}
 
-	mut sum := u64(0
+	mut sum := u64(0)
+	for b in big
