@@ -24,4 +24,5 @@ pub fn (big BigInteger) trailing_zeros() u64 {
 	for b in big.bits {
 		if b == 0 {
 			sum = sum + 32
-	
+		} else {
+			s
