@@ -26,4 +26,5 @@ pub fn (big BigInteger) trailing_zeros() u64 {
 			sum = sum + 32
 		} else {
 			sum = sum + u64(bits.trailing_zeros_32(b))
+			break
 		
