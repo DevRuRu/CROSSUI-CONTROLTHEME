@@ -31,3 +31,6 @@ pub fn (big BigInteger) trailing_zeros() u64 {
 	}
 
 	return sum
+}
+
+pub f
