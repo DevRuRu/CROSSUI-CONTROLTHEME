@@ -33,4 +33,4 @@ pub fn (big BigInteger) trailing_zeros() u64 {
 	return sum
 }
 
-pub fn (big Big
+pub fn (big BigInteger) l
