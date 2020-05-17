@@ -35,3 +35,6 @@ pub fn (big BigInteger) trailing_zeros() u64 {
 
 pub fn (big BigInteger) leading_zeros() u64 {
 	return u64(bits.leading_zeros_32(big.bits.last()))
+}
+
+fn (mut
