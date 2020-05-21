@@ -37,4 +37,5 @@ pub fn (big BigInteger) leading_zeros() u64 {
 	return u64(bits.leading_zeros_32(big.bits.last()))
 }
 
-fn (mut big BigInteger) prepend_bit(
+fn (mut big BigInteger) prepend_bit(b u32) {
+	big.bits
