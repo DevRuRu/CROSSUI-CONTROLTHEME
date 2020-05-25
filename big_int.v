@@ -41,4 +41,5 @@ fn (mut big BigInteger) prepend_bit(b u32) {
 	big.bits.prepend(b)
 }
 
-fn (mut big BigInteger) append_bit(b u32) 
+fn (mut big BigInteger) append_bit(b u32) {
+	big.bits
