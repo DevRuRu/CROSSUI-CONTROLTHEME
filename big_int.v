@@ -45,4 +45,4 @@ fn (mut big BigInteger) append_bit(b u32) {
 	big.bits << b
 }
 
-fn (big BigIn
+fn (big BigInteger) clone(
