@@ -47,4 +47,5 @@ fn (mut big BigInteger) append_bit(b u32) {
 
 fn (big BigInteger) clone() BigInteger {
 	return BigInteger{
-		sign: big.si
+		sign: big.sign
+		bits: b
