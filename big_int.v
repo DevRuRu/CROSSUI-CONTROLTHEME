@@ -52,4 +52,4 @@ fn (big BigInteger) clone() BigInteger {
 	}
 }
 
-fn trim_msb_zeros(mut bi
+fn trim_msb_zeros(mut bits []u32
