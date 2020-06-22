@@ -58,4 +58,5 @@ fn trim_msb_zeros(mut bits []u32) {
 			if bits[i] == 0 {
 				bits.delete_last()
 			} else {
-		
+				break
+			
