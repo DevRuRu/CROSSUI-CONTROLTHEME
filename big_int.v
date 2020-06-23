@@ -61,3 +61,5 @@ fn trim_msb_zeros(mut bits []u32) {
 				break
 			}
 		}
+	}
+}
