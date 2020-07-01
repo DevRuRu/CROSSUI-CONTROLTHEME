@@ -14,3 +14,18 @@ pub fn (big BigInteger) negative() BigInteger {
 	return BigInteger{
 		bits: big.bits
 		sign: if big.sign == BigIntegerSign.positive {
+			BigIntegerSign.negative
+		} else {
+			BigIntegerSign.positive
+		}
+	}
+}
+
+pub fn (a BigInteger) + (b BigInteger) BigInteger {
+	return add(a, b)
+}
+
+pub fn add(a BigInteger, b BigInteger) BigInteger {
+	if a.sign == .zero {
+		return b
+	} else if b.sign == .zero {
