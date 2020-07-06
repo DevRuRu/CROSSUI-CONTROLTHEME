@@ -75,3 +75,17 @@ pub fn substract(a BigInteger, b BigInteger) BigInteger {
 		return b.negative()
 	} else if b.sign == .zero {
 		return a
+	} else if a.sign != b.sign {
+		mut bits := []u32{len: 0}
+		if a.bits.len >= b.bits.len {
+			bits = add_a_b_length_asc(b.bits, a.bits)
+		} else {
+			return substract(b, a).negative()
+		}
+
+		return BigInteger{
+			sign: a.sign
+			bits: bits
+		}
+	} else {
+		mut bits := []u32{len: 0}
