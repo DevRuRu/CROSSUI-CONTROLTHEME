@@ -65,3 +65,13 @@ pub fn add(a BigInteger, b BigInteger) BigInteger {
 		}
 	}
 }
+
+pub fn (a BigInteger) - (b BigInteger) BigInteger {
+	return substract(a, b)
+}
+
+pub fn substract(a BigInteger, b BigInteger) BigInteger {
+	if a.sign == .zero {
+		return b.negative()
+	} else if b.sign == .zero {
+		return a
