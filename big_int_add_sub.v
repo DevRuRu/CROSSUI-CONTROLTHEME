@@ -54,3 +54,14 @@ pub fn add(a BigInteger, b BigInteger) BigInteger {
 		} else {
 			return b + a
 		}
+
+		if sign == .zero {
+			return zero
+		}
+
+		return BigInteger{
+			sign: sign
+			bits: bits
+		}
+	}
+}
