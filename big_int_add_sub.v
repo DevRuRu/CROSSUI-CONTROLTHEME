@@ -43,3 +43,14 @@ pub fn add(a BigInteger, b BigInteger) BigInteger {
 			bits: bits
 		}
 	} else {
+		mut bits := []u32{len: 0}
+		mut sign := BigIntegerSign.zero
+		if a.bits.len >= b.bits.len {
+			bits, sign = sub_a_b_length_desc(a.bits, b.bits, if a.sign == BigIntegerSign.negative {
+				true
+			} else {
+				false
+			})
+		} else {
+			return b + a
+		}
