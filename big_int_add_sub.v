@@ -89,3 +89,16 @@ pub fn substract(a BigInteger, b BigInteger) BigInteger {
 		}
 	} else {
 		mut bits := []u32{len: 0}
+		mut sign := BigIntegerSign.zero
+		if a.bits.len == b.bits.len {
+			mut swap_order := false
+			for i := a.bits.len - 1; i >= 0; i-- {
+				da := a.bits[i]
+				dj := b.bits[i]
+				if da < dj {
+					swap_order = true
+					break
+				} else if da > dj {
+					break
+				}
+			}
