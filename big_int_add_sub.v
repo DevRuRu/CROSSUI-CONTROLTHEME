@@ -102,3 +102,13 @@ pub fn substract(a BigInteger, b BigInteger) BigInteger {
 					break
 				}
 			}
+			if swap_order {
+				bits, sign = sub_a_b_length_desc(b.bits, a.bits, if a.sign == BigIntegerSign.negative {
+					false
+				} else {
+					true
+				})
+			} else {
+				bits, sign = sub_a_b_length_desc(a.bits, b.bits, if a.sign == BigIntegerSign.negative {
+					true
+				} else {
