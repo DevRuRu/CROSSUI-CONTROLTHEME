@@ -112,3 +112,17 @@ pub fn substract(a BigInteger, b BigInteger) BigInteger {
 				bits, sign = sub_a_b_length_desc(a.bits, b.bits, if a.sign == BigIntegerSign.negative {
 					true
 				} else {
+					false
+				})
+			}
+		} else if a.bits.len > b.bits.len {
+			bits, sign = sub_a_b_length_desc(a.bits, b.bits, if a.sign == BigIntegerSign.negative {
+				true
+			} else {
+				false
+			})
+		} else {
+			return substract(b, a).negative()
+		}
+
+		if sign == .zero {
