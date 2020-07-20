@@ -141,3 +141,15 @@ pub fn substract(a BigInteger, b BigInteger) BigInteger {
 fn add_a_b_length_asc(a []u32, b []u32) []u32 {
 	mut i := 0
 	mut num_tmp := u64(0)
+	mut result := []u32{len: b.len}
+	for ; i < a.len; i++ {
+		num := u64(a[i]) + u64(b[i]) + num_tmp
+		num_tmp = num >> 32
+		result[i] = u32(num)
+	}
+
+	for ; i < b.len; i++ {
+		num := u64(b[i]) + num_tmp
+		num_tmp = num >> 32
+		result[i] = u32(num)
+	}
