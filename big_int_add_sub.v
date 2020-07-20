@@ -153,3 +153,14 @@ fn add_a_b_length_asc(a []u32, b []u32) []u32 {
 		num_tmp = num >> 32
 		result[i] = u32(num)
 	}
+
+	if num_tmp > 0 {
+		result << u32(num_tmp)
+	}
+
+	return result
+}
+
+[direct_array_access]
+fn sub_a_b_length_desc(a []u32, b []u32, reverse_sign bool) ([]u32, BigIntegerSign) {
+	mut result := a.clone()
