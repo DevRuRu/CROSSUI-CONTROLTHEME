@@ -173,3 +173,10 @@ fn sub_mut_a_b_length_desc(mut a []u32, b []u32, reverse_sign bool) BigIntegerSi
 	mut i := 0
 	mut borrow_next := false
 	for ; i < b.len; i++ {
+		v1 := i64(a[i])
+		v2 := i64(b[i])
+		mut diff := v1 - v2
+		if borrow_next {
+			diff = diff - 1
+			borrow_next = false
+		}
