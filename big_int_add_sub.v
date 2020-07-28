@@ -180,3 +180,16 @@ fn sub_mut_a_b_length_desc(mut a []u32, b []u32, reverse_sign bool) BigIntegerSi
 			diff = diff - 1
 			borrow_next = false
 		}
+
+		if diff < 0 {
+			borrow_next = true
+			diff += biginteger.two_pow_32
+		}
+
+		a[i] = u32(diff)
+	}
+
+	for ; borrow_next && i < a.len; i++ {
+		a_i := a[i]
+		if a_i == 0 {
+			borrow_next = true
