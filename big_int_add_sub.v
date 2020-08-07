@@ -193,3 +193,15 @@ fn sub_mut_a_b_length_desc(mut a []u32, b []u32, reverse_sign bool) BigIntegerSi
 		a_i := a[i]
 		if a_i == 0 {
 			borrow_next = true
+			a[i] = biginteger.two_pow_32_minus_1
+		} else {
+			borrow_next = false
+			a[i] = a_i - 1
+		}
+	}
+
+	mut sign := BigIntegerSign.positive
+	if borrow_next {
+		sign = BigIntegerSign.negative
+		a << 1
+	} else {
