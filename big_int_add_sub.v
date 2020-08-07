@@ -205,3 +205,13 @@ fn sub_mut_a_b_length_desc(mut a []u32, b []u32, reverse_sign bool) BigIntegerSi
 		sign = BigIntegerSign.negative
 		a << 1
 	} else {
+		trim_msb_zeros(mut a)
+		if a.len < 1 || (a.len == 1 && a[0] == 0) {
+			sign = BigIntegerSign.zero
+		}
+	}
+
+	if reverse_sign && sign != BigIntegerSign.zero {
+		sign = if sign == BigIntegerSign.positive {
+			BigIntegerSign.negative
+		} else {
