@@ -215,3 +215,9 @@ fn sub_mut_a_b_length_desc(mut a []u32, b []u32, reverse_sign bool) BigIntegerSi
 		sign = if sign == BigIntegerSign.positive {
 			BigIntegerSign.negative
 		} else {
+			BigIntegerSign.positive
+		}
+	}
+
+	return sign
+}
