@@ -28,3 +28,13 @@ fn test_add_4() {
 
 	assert '${b + a}' == '-18021335310'
 }
+
+fn test_add_5() {
+	a := from_str('-8337839423') or { panic('') }
+	b := from_str('8337839423') or { panic('') }
+
+	assert '${b + a}' == '0'
+}
+
+fn test_add_6() {
+	a := from_str('8337839423') or { panic('') }
