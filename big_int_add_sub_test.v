@@ -50,3 +50,13 @@ fn test_sub_1() {
 	assert '${b - a}' == '1345656464'
 	assert '${a - b}' == '-1345656464'
 }
+
+fn test_sub_2() {
+	a := from_str('-8337839423') or { panic('') }
+	b := from_str('-9683495887') or { panic('') }
+
+	assert '${b - a}' == '-1345656464'
+	assert '${a - b}' == '1345656464'
+}
+
+fn test_sub_3() {
