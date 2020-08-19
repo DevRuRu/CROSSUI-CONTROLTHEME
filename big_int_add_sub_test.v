@@ -78,3 +78,7 @@ fn test_sub_4() {
 fn test_sub_5() {
 	a := from_str('8337839423') or { panic('') }
 	b := from_str('8337839423') or { panic('') }
+
+	assert '${b - a}' == '0'
+	assert '${a - b}' == '0'
+}
