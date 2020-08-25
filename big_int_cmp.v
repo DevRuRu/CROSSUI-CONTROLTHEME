@@ -41,3 +41,18 @@ pub fn cmp(a BigInteger, b BigInteger) int {
 fn cmp_bits(a []u32, b []u32) int {
 	if a.len < b.len {
 		return -1
+	} else if a.len > b.len {
+		return 1
+	} else {
+		for i := a.len - 1; i >= 0; i-- {
+			digit_a := a[i]
+			digit_b := b[i]
+			if digit_a < digit_b {
+				return -1
+			} else if digit_a > digit_b {
+				return 1
+			}
+		}
+
+		return 0
+	}
