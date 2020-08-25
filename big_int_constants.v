@@ -1,3 +1,4 @@
 module biginteger
 
-pub con
+pub const (
+	zero 
