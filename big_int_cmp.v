@@ -17,3 +17,13 @@ pub fn (a BigInteger) == (b BigInteger) bool {
 
 pub fn (a BigInteger) < (b BigInteger) bool {
 	return cmp(a, b) < 0
+}
+
+pub fn cmp(a BigInteger, b BigInteger) int {
+	if b.sign == .positive {
+		if a.sign == .positive {
+			return cmp_bits(a.bits, b.bits)
+		} else {
+			return -1
+		}
+	} else {
