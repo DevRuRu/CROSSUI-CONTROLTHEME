@@ -56,3 +56,4 @@ fn cmp_bits(a []u32, b []u32) int {
 
 		return 0
 	}
+}
