@@ -11,3 +11,9 @@ pub fn (a BigInteger) == (b BigInteger) bool {
 			}
 		}
 	}
+
+	return true
+}
+
+pub fn (a BigInteger) < (b BigInteger) bool {
+	return cmp(a, b) < 0
