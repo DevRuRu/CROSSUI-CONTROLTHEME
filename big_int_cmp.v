@@ -27,3 +27,17 @@ pub fn cmp(a BigInteger, b BigInteger) int {
 			return -1
 		}
 	} else {
+		if a.sign == .zero && b.sign == .zero {
+			return 0
+		} else if a.sign == .negative {
+			return cmp(b.negative(), a.negative())
+		} else {
+			return 1
+		}
+	}
+}
+
+[direct_array_access]
+fn cmp_bits(a []u32, b []u32) int {
+	if a.len < b.len {
+		return -1
