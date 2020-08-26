@@ -1,4 +1,5 @@
 module biginteger
 
 pub const (
-	zero = BigIntege
+	zero = BigInteger{
+		sign: .
