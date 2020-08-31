@@ -3,4 +3,4 @@ module biginteger
 pub const (
 	zero = BigInteger{
 		sign: .zero
-		bits
+		bits: [u32(0)]
