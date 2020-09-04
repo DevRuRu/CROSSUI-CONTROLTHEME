@@ -5,4 +5,5 @@ pub const (
 		sign: .zero
 		bits: [u32(0)]
 	}
-	one = Big
+	one = BigInteger{
+		sign: 
