@@ -7,3 +7,4 @@ pub const (
 	}
 	one = BigInteger{
 		sign: .positive
+		bits: [u32(1
