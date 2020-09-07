@@ -6,4 +6,4 @@ pub const (
 		bits: [u32(0)]
 	}
 	one = BigInteger{
-		sign: 
+		sign: .positive
