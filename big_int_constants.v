@@ -9,4 +9,4 @@ pub const (
 		sign: .positive
 		bits: [u32(1)]
 	}
-	mi
+	minus_one = Bi
