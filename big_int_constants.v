@@ -9,4 +9,5 @@ pub const (
 		sign: .positive
 		bits: [u32(1)]
 	}
-	minus_one = BigInteger
+	minus_one = BigInteger{
+		sign: .ne
