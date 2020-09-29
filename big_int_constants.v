@@ -10,4 +10,5 @@ pub const (
 		bits: [u32(1)]
 	}
 	minus_one = BigInteger{
-		sign: .ne
+		sign: .negative
+		bits
