@@ -11,4 +11,4 @@ pub const (
 	}
 	minus_one = BigInteger{
 		sign: .negative
-		bits
+		bits: [u32(1)]
