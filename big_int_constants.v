@@ -15,4 +15,5 @@ pub const (
 	}
 	two = BigInteger{
 		sign: .positive
-		bits
+		bits: [u32(2)]
+	}
