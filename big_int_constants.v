@@ -19,4 +19,6 @@ pub const (
 	}
 	four = BigInteger{
 		sign: .positive
-		bits: [u32(4
+		bits: [u32(4)]
+	}
+	eight = 
