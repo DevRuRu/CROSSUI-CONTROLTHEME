@@ -22,4 +22,4 @@ pub const (
 		bits: [u32(4)]
 	}
 	eight = BigInteger{
-		
+		sign: .positi
