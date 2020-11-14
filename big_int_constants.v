@@ -27,4 +27,4 @@ pub const (
 	}
 	ten = BigInteger{
 		sign: .positive
-	
+		bits: [u32(
