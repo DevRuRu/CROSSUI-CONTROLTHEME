@@ -31,4 +31,6 @@ pub const (
 	}
 	hex = BigInteger{
 		sign: .positive
-		bits: [u32(16)
+		bits: [u32(16)]
+	}
+)
