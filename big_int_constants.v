@@ -29,4 +29,5 @@ pub const (
 		sign: .positive
 		bits: [u32(10)]
 	}
-	hex = Big
+	hex = BigInteger{
+		s
