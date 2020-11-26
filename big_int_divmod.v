@@ -19,3 +19,13 @@ pub fn div_mod(a BigInteger, b BigInteger) ?(BigInteger, BigInteger) {
 	} else if a.sign == .zero {
 		return zero, zero
 	}
+
+	if a.sign != b.sign {
+		if a.sign == .negative {
+			quotient, remainder := div_mod(a.negative(), b) ?
+			return quotient.negative(), remainder.negative()
+		} else {
+			quotient, remainder := div_mod(a, b.negative()) ?
+			return quotient.negative(), remainder
+		}
+	}
