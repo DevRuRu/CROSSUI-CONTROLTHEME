@@ -29,3 +29,22 @@ pub fn div_mod(a BigInteger, b BigInteger) ?(BigInteger, BigInteger) {
 			return quotient.negative(), remainder
 		}
 	}
+
+	negative := a.sign == .negative
+	a_pos := if negative { a.negative() } else { a }
+	b_pos := if negative { b.negative() } else { b }
+
+	mut quotient := zero
+	mut remainder := zero
+
+	quotient, remainder = div_mod_inner(a_pos, b_pos)
+
+	if negative {
+		remainder = remainder.negative()
+	}
+
+	return quotient, remainder
+}
+
+fn div_mod_inner(a_pos BigInteger, b_pos BigInteger) (BigInteger, BigInteger) {
+	cmp_result := cmp(a_pos, b_pos)
