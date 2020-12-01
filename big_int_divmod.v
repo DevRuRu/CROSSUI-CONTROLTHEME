@@ -48,3 +48,13 @@ pub fn div_mod(a BigInteger, b BigInteger) ?(BigInteger, BigInteger) {
 
 fn div_mod_inner(a_pos BigInteger, b_pos BigInteger) (BigInteger, BigInteger) {
 	cmp_result := cmp(a_pos, b_pos)
+	if cmp_result < 0 {
+		return zero, a_pos
+	} else if cmp_result == 0 {
+		return one, zero
+	} else {
+		return div_mod_inner_core(a_pos, b_pos)
+	}
+}
+
+[inline]
