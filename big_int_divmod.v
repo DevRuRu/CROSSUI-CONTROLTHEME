@@ -84,3 +84,10 @@ fn div_mod_inner_core(a_pos BigInteger, b_pos BigInteger) (BigInteger, BigIntege
 	}
 
 	for cmp_bits_result >= 0 {
+		_ = sub_mut_a_b_length_desc(mut remainder_bits, divider_bits, false)
+		quotient = quotient + one
+		cmp_bits_result = cmp_bits(remainder_bits, divider_bits)
+	}
+
+	return quotient, from_bits(remainder_bits)
+}
