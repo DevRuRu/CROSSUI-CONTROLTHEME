@@ -73,3 +73,14 @@ fn div_mod_inner_core(a_pos BigInteger, b_pos BigInteger) (BigInteger, BigIntege
 			break
 		}
 		q_shift_bits = q_shift_bits - 1
+		quotient = quotient + one.lshift(q_shift_bits)
+		to_minus := b_pos.lshift(q_shift_bits)
+		remainder_sign = sub_mut_a_b_length_desc(mut remainder_bits, to_minus.bits, false)
+		if remainder_sign == BigIntegerSign.zero {
+			return quotient, zero
+		}
+
+		cmp_bits_result = cmp_bits(remainder_bits, divider_bits)
+	}
+
+	for cmp_bits_result >= 0 {
