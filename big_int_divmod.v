@@ -58,3 +58,18 @@ fn div_mod_inner(a_pos BigInteger, b_pos BigInteger) (BigInteger, BigInteger) {
 }
 
 [inline]
+fn div_mod_inner_core(a_pos BigInteger, b_pos BigInteger) (BigInteger, BigInteger) {
+	mut quotient := zero
+	leading_zeros_b := b_pos.leading_zeros()
+
+	mut remainder_bits := a_pos.bits.clone()
+	mut remainder_sign := BigIntegerSign.positive
+	divider_bits := b_pos.bits
+	mut cmp_bits_result := 1
+	for cmp_bits_result > 0 {
+		q_shift := u64(remainder_bits.len - divider_bits.len)
+		mut q_shift_bits := (32 * q_shift) + leading_zeros_b - u64(bits.leading_zeros_32(remainder_bits.last()))
+		if q_shift_bits < 2 {
+			break
+		}
+		q_shift_bits = q_shift_bits - 1
