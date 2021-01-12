@@ -5,4 +5,4 @@ fn test_divide_mod_big() {
 	b := from_str('98765432109876543210') or { panic('') }
 
 	assert '${a / b}' == '9999999'
-	ass
+	assert '${a % b}' =
