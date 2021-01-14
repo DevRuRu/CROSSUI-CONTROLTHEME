@@ -8,4 +8,5 @@ fn test_divide_mod_big() {
 	assert '${a % b}' == '90012345579011111100'
 }
 
-fn test_divide
+fn test_divide_mod() {
+	div
