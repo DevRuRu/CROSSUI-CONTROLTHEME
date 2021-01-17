@@ -9,4 +9,4 @@ fn test_divide_mod_big() {
 }
 
 fn test_divide_mod() {
-	div
+	divide_mo
