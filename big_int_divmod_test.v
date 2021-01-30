@@ -14,4 +14,5 @@ fn test_divide_mod() {
 	divide_mod_inner(22, -3)
 	divide_mod_inner(-22, 3)
 	divide_mod_inner(-22, -3)
-	divide_mod_in
+	divide_mod_inner(1, -3)
+	d
