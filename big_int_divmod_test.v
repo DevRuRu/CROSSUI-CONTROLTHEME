@@ -21,4 +21,4 @@ fn test_divide_mod() {
 	divide_mod_inner(-(1 << 8), 1 << 4)
 }
 
-fn divid
+fn divide_mod_inner
