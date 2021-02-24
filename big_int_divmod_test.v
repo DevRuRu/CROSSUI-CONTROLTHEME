@@ -22,4 +22,5 @@ fn test_divide_mod() {
 }
 
 fn divide_mod_inner(a int, b int) {
-	a_big := 
+	a_big := from_int(a)
+	b
