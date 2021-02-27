@@ -26,4 +26,4 @@ fn divide_mod_inner(a int, b int) {
 	b_big := from_int(b)
 
 	assert '${a_big / b_big}' == '${a / b}'
-	assert '${a_big % b_big}
+	assert '${a_big % b_big}' == '${a % 
