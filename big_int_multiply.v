@@ -1,3 +1,3 @@
 module biginteger
 
-pub fn (a BigInteger) * 
+pub fn (a BigInteger) * (b BigInte
