@@ -1,4 +1,4 @@
 module biginteger
 
 pub fn (a BigInteger) * (b BigInteger) BigInteger {
-	if a.sign == .zero || b.sign
+	if a.sign == .zero || b.sign == .zero
