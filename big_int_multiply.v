@@ -4,4 +4,4 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 	if a.sign == .zero || b.sign == .zero {
 		return zero
 	} else {
-		// trailing
+		// trailing_zeros_a := 
