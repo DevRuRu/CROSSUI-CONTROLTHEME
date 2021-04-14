@@ -5,4 +5,4 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 		return zero
 	} else {
 		// trailing_zeros_a := a.trailing_zeros()
-		// trail
+		// trailing_zeros_
