@@ -6,4 +6,4 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 	} else {
 		// trailing_zeros_a := a.trailing_zeros()
 		// trailing_zeros_b := b.trailing_zeros()
-		// if (trail
+		// if (trailing_zeros_
