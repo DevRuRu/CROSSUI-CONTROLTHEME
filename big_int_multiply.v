@@ -7,4 +7,5 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 		// trailing_zeros_a := a.trailing_zeros()
 		// trailing_zeros_b := b.trailing_zeros()
 		// if (trailing_zeros_a > 0) || (trailing_zeros_b > 0) {
-		// 	trailing_zeros := trailing_zeros_a + trailing_zer
+		// 	trailing_zeros := trailing_zeros_a + trailing_zeros_b
+		// 	
