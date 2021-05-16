@@ -11,4 +11,4 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 		// 	return (a.rshift(trailing_zeros_a) * b.rshift(trailing_zeros_b)).lshift(trailing_zeros)
 		// }
 
-		a_len :=
+		a_len := a.bits.l
