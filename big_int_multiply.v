@@ -12,4 +12,4 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 		// }
 
 		a_len := a.bits.len
-		b_len :=
+		b_len := b.bits.l
