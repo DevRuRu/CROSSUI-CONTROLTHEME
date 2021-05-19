@@ -14,4 +14,5 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 		a_len := a.bits.len
 		b_len := b.bits.len
 
-		negative := a.sign !=
+		negative := a.sign != b.sign
+		array_c
