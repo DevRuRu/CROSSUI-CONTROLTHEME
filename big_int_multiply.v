@@ -16,4 +16,5 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 
 		negative := a.sign != b.sign
 		array_cap := int(a_len + b_len)
-		mut bits := []u32{len:
+		mut bits := []u32{len: array_cap}
+		
