@@ -18,4 +18,6 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 		array_cap := int(a_len + b_len)
 		mut bits := []u32{len: array_cap}
 		multiply_unsafe(mut bits, a.bits, b.bits)
-		trim_msb_zero
+		trim_msb_zeros(mut bits)
+
+	
