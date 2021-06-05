@@ -20,4 +20,4 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 		multiply_unsafe(mut bits, a.bits, b.bits)
 		trim_msb_zeros(mut bits)
 
-	
+		return Bi
