@@ -22,4 +22,9 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 
 		return BigInteger{
 			sign: if negative { BigIntegerSign.negative } else { BigIntegerSign.positive }
-			bits: 
+			bits: bits
+		}
+	}
+}
+
+[
