@@ -27,4 +27,5 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 	}
 }
 
-[direct_array_acces
+[direct_array_access]
+fn mul
