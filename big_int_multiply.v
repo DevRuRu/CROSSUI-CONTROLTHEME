@@ -28,4 +28,4 @@ pub fn (a BigInteger) * (b BigInteger) BigInteger {
 }
 
 [direct_array_access]
-fn multiply_unsafe(mut bits []u32, a []u32
+fn multiply_unsafe(mut bits []u32, a []u32, b []u32) 
