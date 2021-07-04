@@ -32,4 +32,5 @@ fn multiply_unsafe(mut bits []u32, a []u32, b []u32) {
 	a_len := a.len
 	b_len := b.len
 	if a_len > b_len {
-		multiply_unsafe(mut bits, b,
+		multiply_unsafe(mut bits, b, a)
+		r
