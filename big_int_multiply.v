@@ -36,4 +36,4 @@ fn multiply_unsafe(mut bits []u32, a []u32, b []u32) {
 		return
 	}
 
-	fo
+	for i := 0; i
