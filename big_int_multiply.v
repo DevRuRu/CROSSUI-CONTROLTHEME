@@ -42,4 +42,4 @@ fn multiply_unsafe(mut bits []u32, a []u32, b []u32) {
 			v1 := u64(a[i])
 			v2 := u64(b[j])
 			i_plus_j := i + j
-			product := v1 * v2 + u64(tmp_num) + u
+			product := v1 * v2 + u64(tmp_num) + u64(bits[i
