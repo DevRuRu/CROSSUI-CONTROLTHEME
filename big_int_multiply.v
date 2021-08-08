@@ -47,4 +47,5 @@ fn multiply_unsafe(mut bits []u32, a []u32, b []u32) {
 			bits[i_plus_j] = u32(product)
 		}
 		bits[i + b_len] = tmp_num
-	
+	}
+}
