@@ -1,3 +1,3 @@
 module biginteger
 
-pub fn from_i8(i i8) Bi
+pub fn from_i8(i i8) BigInteger {
