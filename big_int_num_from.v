@@ -1,3 +1,3 @@
 module biginteger
 
-pub fn
+pub fn from
