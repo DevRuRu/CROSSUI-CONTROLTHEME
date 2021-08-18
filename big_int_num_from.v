@@ -1,4 +1,7 @@
 module biginteger
 
 pub fn from_i8(i i8) BigInteger {
-	return from_i64(
+	return from_i64(i)
+}
+
+pub fn f
