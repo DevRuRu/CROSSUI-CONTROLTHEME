@@ -5,3 +5,4 @@ pub fn from_i8(i i8) BigInteger {
 }
 
 pub fn from_int(i int) BigInteger {
+	return from_i
