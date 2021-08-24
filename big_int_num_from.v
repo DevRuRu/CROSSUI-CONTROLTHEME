@@ -8,4 +8,4 @@ pub fn from_int(i int) BigInteger {
 	return from_i64(i)
 }
 
-pub fn from_i6
+pub fn from_i64(i i64)
