@@ -10,4 +10,4 @@ pub fn from_int(i int) BigInteger {
 
 pub fn from_i64(i i64) BigInteger {
 	if i == 0 {
-		retur
+		return from_u64
