@@ -11,4 +11,5 @@ pub fn from_int(i int) BigInteger {
 pub fn from_i64(i i64) BigInteger {
 	if i == 0 {
 		return from_u64_and_sign(0, BigIntegerSign.zero)
-	} else 
+	} else if i < 0 {
+		retu
