@@ -14,4 +14,4 @@ pub fn from_i64(i i64) BigInteger {
 	} else if i < 0 {
 		return from_u64_and_sign(u64(-i), BigIntegerSign.negative)
 	} else {
-		return fr
+		return from_u64_and_sign(
