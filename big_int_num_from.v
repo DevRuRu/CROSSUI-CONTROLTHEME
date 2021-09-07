@@ -16,3 +16,6 @@ pub fn from_i64(i i64) BigInteger {
 	} else {
 		return from_u64_and_sign(u64(i), BigIntegerSign.positive)
 	}
+}
+
+pub fn
