@@ -18,4 +18,4 @@ pub fn from_i64(i i64) BigInteger {
 	}
 }
 
-pub fn
+pub fn from_u32(
