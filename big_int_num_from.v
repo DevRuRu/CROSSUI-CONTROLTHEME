@@ -22,4 +22,4 @@ pub fn from_u32(i u32) BigInteger {
 	return from_u64(i)
 }
 
-pub fn from_u64(i u6
+pub fn from_u64(i u64) BigInte
