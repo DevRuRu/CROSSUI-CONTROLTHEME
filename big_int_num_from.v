@@ -23,4 +23,4 @@ pub fn from_u32(i u32) BigInteger {
 }
 
 pub fn from_u64(i u64) BigInteger {
-	return 
+	return from_u64_and_
