@@ -26,4 +26,5 @@ pub fn from_u64(i u64) BigInteger {
 	return from_u64_and_sign(i, BigIntegerSign.positive)
 }
 
-pub fn from_bits(bits []u32) B
+pub fn from_bits(bits []u32) BigInteger {
+	ret
