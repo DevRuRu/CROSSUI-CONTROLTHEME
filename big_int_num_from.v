@@ -27,4 +27,5 @@ pub fn from_u64(i u64) BigInteger {
 }
 
 pub fn from_bits(bits []u32) BigInteger {
-	return from_bits_and_sign(bit
+	return from_bits_and_sign(bits, .positive)
+}
