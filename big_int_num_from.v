@@ -30,4 +30,4 @@ pub fn from_bits(bits []u32) BigInteger {
 	return from_bits_and_sign(bits, .positive)
 }
 
-pub f
+pub fn from_bi
