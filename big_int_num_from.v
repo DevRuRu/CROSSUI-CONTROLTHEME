@@ -31,4 +31,4 @@ pub fn from_bits(bits []u32) BigInteger {
 }
 
 pub fn from_bits_and_sign(bits []u32, sign BigIntegerSign) BigInteger {
-	if sign == .zero
+	if sign == .zero || bits.len < 
