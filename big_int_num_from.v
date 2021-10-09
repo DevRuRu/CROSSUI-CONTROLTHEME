@@ -37,4 +37,5 @@ pub fn from_bits_and_sign(bits []u32, sign BigIntegerSign) BigInteger {
 
 	return BigInteger{
 		sign: sign
-		bi
+		bits: bits
+	
