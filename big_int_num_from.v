@@ -41,4 +41,5 @@ pub fn from_bits_and_sign(bits []u32, sign BigIntegerSign) BigInteger {
 	}
 }
 
-fn from_u64_and_sign(i u64, sign BigIntegerSign) B
+fn from_u64_and_sign(i u64, sign BigIntegerSign) BigInteger {
+	if 
