@@ -42,4 +42,5 @@ pub fn from_bits_and_sign(bits []u32, sign BigIntegerSign) BigInteger {
 }
 
 fn from_u64_and_sign(i u64, sign BigIntegerSign) BigInteger {
-	if i == 0 || sign == .
+	if i == 0 || sign == .zero {
+		retur
