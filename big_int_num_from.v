@@ -47,4 +47,4 @@ fn from_u64_and_sign(i u64, sign BigIntegerSign) BigInteger {
 	}
 
 	abs := i
-	abs_t
+	abs_top := u32
