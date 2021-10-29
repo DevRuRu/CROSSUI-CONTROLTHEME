@@ -50,4 +50,5 @@ fn from_u64_and_sign(i u64, sign BigIntegerSign) BigInteger {
 	abs_top := u32(abs >> 32)
 	bits := if abs_top == 0 { [u32(abs)] } else { [u32(abs), abs_top] }
 
-	return BigInt
+	return BigInteger{
+		sign
