@@ -52,4 +52,5 @@ fn from_u64_and_sign(i u64, sign BigIntegerSign) BigInteger {
 
 	return BigInteger{
 		sign: sign
-		bit
+		bits: bits
+	}
