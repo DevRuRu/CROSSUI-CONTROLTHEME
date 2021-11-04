@@ -1,3 +1,4 @@
 module biginteger
 
-fn t
+fn test_zero() {
+	
