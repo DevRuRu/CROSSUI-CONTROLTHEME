@@ -6,4 +6,4 @@ fn test_zero() {
 }
 
 fn test_pos() {
-	n := 
+	n := from_i64(8)
