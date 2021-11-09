@@ -5,4 +5,5 @@ fn test_zero() {
 	assert n.str() == '0'
 }
 
-fn test_p
+fn test_pos() {
+	n := 
