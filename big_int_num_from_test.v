@@ -8,3 +8,6 @@ fn test_zero() {
 fn test_pos() {
 	n := from_i64(8)
 	assert n.str() == '8'
+}
+
+fn test_
