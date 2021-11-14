@@ -10,4 +10,5 @@ fn test_pos() {
 	assert n.str() == '8'
 }
 
-fn test_
+fn test_neg() {
+	n
