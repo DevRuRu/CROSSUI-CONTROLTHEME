@@ -11,4 +11,4 @@ fn test_pos() {
 }
 
 fn test_neg() {
-	n
+	n := from_i64(-8)
