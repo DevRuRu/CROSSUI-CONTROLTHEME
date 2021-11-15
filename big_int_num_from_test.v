@@ -12,4 +12,5 @@ fn test_pos() {
 
 fn test_neg() {
 	n := from_i64(-8)
-	assert n.str
+	assert n.str() == '-8'
+}
