@@ -1,3 +1,3 @@
 module biginteger
 
-p
+pub fn (big BigIn
