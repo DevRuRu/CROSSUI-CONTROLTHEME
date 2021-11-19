@@ -1,3 +1,4 @@
 module biginteger
 
-pub fn (big BigInteger) int() 
+pub fn (big BigInteger) int() int {
+	if 
