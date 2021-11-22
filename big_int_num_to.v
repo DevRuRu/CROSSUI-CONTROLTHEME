@@ -5,4 +5,4 @@ pub fn (big BigInteger) int() int {
 		return 0
 	}
 
-	int_va
+	int_val := int(big.bi
