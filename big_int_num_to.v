@@ -5,4 +5,5 @@ pub fn (big BigInteger) int() int {
 		return 0
 	}
 
-	int_val := int(big.bi
+	int_val := int(big.bits[0])
+	return
