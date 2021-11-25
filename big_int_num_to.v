@@ -6,4 +6,4 @@ pub fn (big BigInteger) int() int {
 	}
 
 	int_val := int(big.bits[0])
-	return
+	return if big.sig
