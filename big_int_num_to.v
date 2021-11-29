@@ -7,3 +7,6 @@ pub fn (big BigInteger) int() int {
 
 	int_val := int(big.bits[0])
 	return if big.sign == .negative { -int_val } else { int_val }
+}
+
+pub fn (
