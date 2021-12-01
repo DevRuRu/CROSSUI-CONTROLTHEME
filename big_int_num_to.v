@@ -9,4 +9,4 @@ pub fn (big BigInteger) int() int {
 	return if big.sign == .negative { -int_val } else { int_val }
 }
 
-pub fn (big BigIn
+pub fn (big BigInteger) u6
