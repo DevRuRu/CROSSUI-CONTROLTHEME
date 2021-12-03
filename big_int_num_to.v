@@ -9,4 +9,5 @@ pub fn (big BigInteger) int() int {
 	return if big.sign == .negative { -int_val } else { int_val }
 }
 
-pub fn (big BigInteger) u64() u64
+pub fn (big BigInteger) u64() u64 {
+	if big.s
