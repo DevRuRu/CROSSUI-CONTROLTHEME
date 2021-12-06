@@ -11,3 +11,4 @@ pub fn (big BigInteger) int() int {
 
 pub fn (big BigInteger) u64() u64 {
 	if big.sign == .zero {
+		retur
