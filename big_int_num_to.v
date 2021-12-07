@@ -14,4 +14,4 @@ pub fn (big BigInteger) u64() u64 {
 		return 0
 	}
 
-	re
+	return get_u
