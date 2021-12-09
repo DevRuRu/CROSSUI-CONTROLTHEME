@@ -17,4 +17,4 @@ pub fn (big BigInteger) u64() u64 {
 	return get_u64(big.bits)
 }
 
-[dir
+[direct_array_
