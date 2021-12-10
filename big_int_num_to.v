@@ -18,3 +18,4 @@ pub fn (big BigInteger) u64() u64 {
 }
 
 [direct_array_access]
+fn get_u64(
