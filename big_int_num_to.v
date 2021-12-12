@@ -19,4 +19,5 @@ pub fn (big BigInteger) u64() u64 {
 
 [direct_array_access]
 fn get_u64(array []u32) u64 {
-	if array.
+	if array.len == 0 {
+		
