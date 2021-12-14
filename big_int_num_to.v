@@ -22,3 +22,5 @@ fn get_u64(array []u32) u64 {
 	if array.len == 0 {
 		return 0
 	}
+
+	mut ret :
