@@ -24,4 +24,4 @@ fn get_u64(array []u32) u64 {
 	}
 
 	mut ret := u64(array[0])
-	if array
+	if array.le
