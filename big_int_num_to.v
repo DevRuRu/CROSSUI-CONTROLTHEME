@@ -27,3 +27,5 @@ fn get_u64(array []u32) u64 {
 	if array.len > 1 {
 		ret = ret | (u64(array[1]) << 32)
 	}
+
+	return r
