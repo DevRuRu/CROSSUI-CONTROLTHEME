@@ -28,4 +28,7 @@ fn get_u64(array []u32) u64 {
 		ret = ret | (u64(array[1]) << 32)
 	}
 
-	return r
+	return ret
+}
+
+fn to
