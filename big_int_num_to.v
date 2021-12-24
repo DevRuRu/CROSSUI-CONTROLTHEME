@@ -31,4 +31,5 @@ fn get_u64(array []u32) u64 {
 	return ret
 }
 
-fn to_u32_array(i 
+fn to_u32_array(i u64) []u32 {
+	
