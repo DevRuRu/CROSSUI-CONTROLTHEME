@@ -33,4 +33,4 @@ fn get_u64(array []u32) u64 {
 
 fn to_u32_array(i u64) []u32 {
 	top := u32(i >> 32)
-	return if top > 0 { [u32(i), top] } else { [u
+	return if top > 0 { [u32(i), top] } else { [u32(i)] 
