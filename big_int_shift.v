@@ -20,3 +20,15 @@ pub fn (big BigInteger) lshift(d u64) BigInteger {
 			result_bits << tmp_next
 		}
 	}
+
+	return BigInteger{
+		sign: big.sign
+		bits: result_bits
+	}
+}
+
+fn (mut big BigInteger) lshift_inner_in_place(d u64) {
+	d_q := d / 32
+	d_r := d % 32
+	if d_q > 0 {
+		for _ in 0 .. d_q {
