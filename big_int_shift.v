@@ -32,3 +32,15 @@ fn (mut big BigInteger) lshift_inner_in_place(d u64) {
 	d_r := d % 32
 	if d_q > 0 {
 		for _ in 0 .. d_q {
+			big.prepend_bit(0)
+		}
+	}
+	if d_r > 0 {
+		tmp_next := lshift_unsafe(mut big.bits, d_q, d_r)
+		if tmp_next > 0 {
+			big.append_bit(tmp_next)
+		}
+	}
+}
+
+[direct_array_access]
