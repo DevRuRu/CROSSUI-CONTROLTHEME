@@ -44,3 +44,16 @@ fn (mut big BigInteger) lshift_inner_in_place(d u64) {
 }
 
 [direct_array_access]
+fn lshift_unsafe(mut result_bits []u32, q u64, r u64) u32 {
+	mut tmp_next := u32(0)
+	for i := q; i < result_bits.len; i++ {
+		current := u64(result_bits[i])
+		tmp_current := (current << r) | tmp_next
+		tmp_next = u32(tmp_current >> 32)
+		result_bits[i] = u32(tmp_current)
+	}
+
+	return tmp_next
+}
+
+pub fn (big BigInteger) rshift(d u64) BigInteger {
