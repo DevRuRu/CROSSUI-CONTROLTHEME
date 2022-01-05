@@ -66,3 +66,16 @@ pub fn (big BigInteger) rshift(d u64) BigInteger {
 
 	if big.bits.len <= d_q {
 		return if big.sign == .negative { minus_one } else { zero }
+	}
+
+	mut result_bits := big.bits[d_q..].clone()
+
+	if d_r > 0 {
+		rshift_unsafe(mut result_bits, d_q, d_r)
+	}
+
+	trim_msb_zeros(mut result_bits)
+
+	if result_bits.len == 1 && result_bits[0] == 0 {
+		return if big.sign == .negative { minus_one } else { zero }
+	}
