@@ -57,3 +57,12 @@ fn lshift_unsafe(mut result_bits []u32, q u64, r u64) u32 {
 }
 
 pub fn (big BigInteger) rshift(d u64) BigInteger {
+	if d == 0 {
+		return big
+	}
+
+	d_q := d / 32
+	d_r := d % 32
+
+	if big.bits.len <= d_q {
+		return if big.sign == .negative { minus_one } else { zero }
