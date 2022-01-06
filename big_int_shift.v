@@ -79,3 +79,17 @@ pub fn (big BigInteger) rshift(d u64) BigInteger {
 	if result_bits.len == 1 && result_bits[0] == 0 {
 		return if big.sign == .negative { minus_one } else { zero }
 	}
+
+	if big.sign == .negative {
+		return BigInteger{
+			sign: big.sign
+			bits: result_bits
+		} - one
+	}
+
+	if result_bits.len < 1 {
+		return zero
+	}
+
+	return BigInteger{
+		sign: big.sign
