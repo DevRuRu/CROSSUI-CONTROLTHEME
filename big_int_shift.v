@@ -102,3 +102,11 @@ fn rshift_unsafe(mut result_bits []u32, q u64, r u64) {
 	mut tmp_next := u32(0)
 	for i := result_bits.len - 1; i >= 0; i-- {
 		current := result_bits[i]
+		tmp_current := (current >> r) | tmp_next
+		if i > 0 {
+			tmp_next = u32(current << (32 - r))
+		}
+
+		result_bits[i] = u32(tmp_current)
+	}
+}
