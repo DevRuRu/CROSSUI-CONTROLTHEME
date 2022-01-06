@@ -93,3 +93,12 @@ pub fn (big BigInteger) rshift(d u64) BigInteger {
 
 	return BigInteger{
 		sign: big.sign
+		bits: result_bits
+	}
+}
+
+[direct_array_access]
+fn rshift_unsafe(mut result_bits []u32, q u64, r u64) {
+	mut tmp_next := u32(0)
+	for i := result_bits.len - 1; i >= 0; i-- {
+		current := result_bits[i]
