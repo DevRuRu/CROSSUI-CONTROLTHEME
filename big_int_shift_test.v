@@ -1,3 +1,3 @@
 module biginteger
 
-fn 
+fn test_lshif
