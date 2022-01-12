@@ -1,3 +1,4 @@
 module biginteger
 
-fn test_lshif
+fn test_lshift() {
+	for a 
