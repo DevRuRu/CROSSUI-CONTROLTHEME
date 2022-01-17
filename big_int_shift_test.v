@@ -5,4 +5,4 @@ fn test_lshift() {
 		a_big := from_i64(a)
 		assert a.str() == a_big.str()
 		for i in 0 .. 32 {
-			a
+			assert (a << i
