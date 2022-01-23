@@ -6,3 +6,6 @@ fn test_lshift() {
 		assert a.str() == a_big.str()
 		for i in 0 .. 32 {
 			assert (a << i).str() == a_big.lshift(u64(i)).str()
+		}
+	}
+}
