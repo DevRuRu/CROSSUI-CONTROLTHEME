@@ -10,4 +10,5 @@ fn test_lshift() {
 	}
 }
 
-fn test_lshift_
+fn test_lshift_big() {
+	
