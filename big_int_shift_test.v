@@ -11,4 +11,4 @@ fn test_lshift() {
 }
 
 fn test_lshift_big() {
-	
+	a := from_str('
