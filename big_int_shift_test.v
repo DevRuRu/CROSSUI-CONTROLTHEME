@@ -9,3 +9,5 @@ fn test_lshift() {
 		}
 	}
 }
+
+fn test_lshift_
