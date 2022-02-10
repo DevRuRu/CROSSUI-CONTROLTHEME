@@ -11,4 +11,4 @@ fn test_lshift() {
 }
 
 fn test_lshift_big() {
-	a := from_str('12_345_67
+	a := from_str('12_345_678_901_234_567_890
