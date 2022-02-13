@@ -12,4 +12,4 @@ fn test_lshift() {
 
 fn test_lshift_big() {
 	a := from_str('12_345_678_901_234_567_890') or { panic('') }
-	a
+	assert a.lshift(
