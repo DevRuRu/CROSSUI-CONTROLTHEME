@@ -13,4 +13,4 @@ fn test_lshift() {
 fn test_lshift_big() {
 	a := from_str('12_345_678_901_234_567_890') or { panic('') }
 	assert a.lshift(2).str() == '49382715604938271560'
-	assert a.lshift(3
+	assert a.lshift(31).str() == '26
