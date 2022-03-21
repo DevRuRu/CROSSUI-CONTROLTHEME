@@ -17,3 +17,5 @@ fn test_lshift_big() {
 	assert a.lshift(32).str() == '53024287127719683112241725440'
 	assert a.lshift(33).str() == '106048574255439366224483450880'
 }
+
+fn test_rsh
