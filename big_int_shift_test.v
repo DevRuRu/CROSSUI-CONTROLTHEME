@@ -18,4 +18,5 @@ fn test_lshift_big() {
 	assert a.lshift(33).str() == '106048574255439366224483450880'
 }
 
-fn test_rsh
+fn test_rshift() {
+	
