@@ -19,4 +19,4 @@ fn test_lshift_big() {
 }
 
 fn test_rshift() {
-	for a in [i64(-777777777777), 7
+	for a in [i64(-777777777777), 777777777777
