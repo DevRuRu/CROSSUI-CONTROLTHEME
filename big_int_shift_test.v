@@ -22,4 +22,5 @@ fn test_rshift() {
 	for a in [i64(-777777777777), 777777777777] {
 		a_big := from_i64(a)
 		assert a.str() == a_big.str()
-		for i in 
+		for i in 0 .. 64 {
+			
