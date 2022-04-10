@@ -23,4 +23,4 @@ fn test_rshift() {
 		a_big := from_i64(a)
 		assert a.str() == a_big.str()
 		for i in 0 .. 64 {
-			assert (a >> i).str() == a_b
+			assert (a >> i).str() == a_big.rshift(u64(i))
