@@ -29,3 +29,5 @@ fn test_rshift() {
 			assert a_big.rshift(u64(i)).str() == if a < 0 {
 				'-1'
 			} else {
+				'0'
+			}
