@@ -31,3 +31,7 @@ fn test_rshift() {
 			} else {
 				'0'
 			}
+		}
+	}
+}
+
