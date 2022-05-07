@@ -35,3 +35,4 @@ fn test_rshift() {
 	}
 }
 
+fn test_rsh
