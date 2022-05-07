@@ -35,4 +35,5 @@ fn test_rshift() {
 	}
 }
 
-fn test_rshift_big() 
+fn test_rshift_big() {
+	a := fr
