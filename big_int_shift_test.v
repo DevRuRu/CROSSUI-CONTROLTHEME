@@ -36,4 +36,4 @@ fn test_rshift() {
 }
 
 fn test_rshift_big() {
-	a := from_str('12345
+	a := from_str('12345678901234567
