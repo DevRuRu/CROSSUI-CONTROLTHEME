@@ -37,4 +37,4 @@ fn test_rshift() {
 
 fn test_rshift_big() {
 	a := from_str('12345678901234567890') or { panic('') }
-	assert 
+	assert a.rshift(2)
