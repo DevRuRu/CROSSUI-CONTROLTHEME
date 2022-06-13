@@ -40,4 +40,4 @@ fn test_rshift_big() {
 	assert a.rshift(2).str() == '3086419725308641972'
 	assert a.rshift(31).str() == '5748904729'
 	assert a.rshift(32).str() == '2874452364'
-	assert a.rshift(33).str() =
+	assert a.rshift(33).str() == '143
