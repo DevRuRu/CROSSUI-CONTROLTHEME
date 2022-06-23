@@ -1,3 +1,3 @@
 module biginteger
 
-pub 
+pub fn from_str(s
