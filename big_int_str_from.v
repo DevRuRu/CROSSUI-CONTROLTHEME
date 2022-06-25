@@ -1,3 +1,3 @@
 module biginteger
 
-pub fn from_str(str string) ?B
+pub fn from_str(str string) ?BigInteg
