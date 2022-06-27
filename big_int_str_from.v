@@ -2,4 +2,4 @@ module biginteger
 
 pub fn from_str(str string) ?BigInteger {
 	base := ten
-	// Validate with reg
+	// Validate with regex, allowin
