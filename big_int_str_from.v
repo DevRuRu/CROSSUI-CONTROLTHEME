@@ -7,4 +7,5 @@ pub fn from_str(str string) ?BigInteger {
 	char_code_underscore := '_'[0]
 	char_code_comma := ','[0]
 	char_code_minus := '-'[0]
-	mut digits 
+	mut digits := []byte{}
+	negati
