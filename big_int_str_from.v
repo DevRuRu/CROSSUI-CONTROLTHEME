@@ -8,4 +8,4 @@ pub fn from_str(str string) ?BigInteger {
 	char_code_comma := ','[0]
 	char_code_minus := '-'[0]
 	mut digits := []byte{}
-	negative := if str[0] == char_code_minus { t
+	negative := if str[0] == char_code_minus { true } else 
