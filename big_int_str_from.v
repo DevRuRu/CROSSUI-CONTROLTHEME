@@ -9,4 +9,4 @@ pub fn from_str(str string) ?BigInteger {
 	char_code_minus := '-'[0]
 	mut digits := []byte{}
 	negative := if str[0] == char_code_minus { true } else { false }
-	digits_str := if negative { st
+	digits_str := if negative { str[1..] } el
