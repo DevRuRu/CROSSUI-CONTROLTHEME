@@ -10,4 +10,5 @@ pub fn from_str(str string) ?BigInteger {
 	mut digits := []byte{}
 	negative := if str[0] == char_code_minus { true } else { false }
 	digits_str := if negative { str[1..] } else { str }
-	for char_code in digi
+	for char_code in digits_str {
+	
