@@ -13,4 +13,4 @@ pub fn from_str(str string) ?BigInteger {
 	for char_code in digits_str {
 		if char_code >= char_code_0 && char_code < char_code_0 + 10 {
 			num := char_code - char_code_0
-		
+			digits << nu
