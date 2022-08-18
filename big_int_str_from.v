@@ -12,4 +12,4 @@ pub fn from_str(str string) ?BigInteger {
 	digits_str := if negative { str[1..] } else { str }
 	for char_code in digits_str {
 		if char_code >= char_code_0 && char_code < char_code_0 + 10 {
-			num := cha
+			num := char_code - c
