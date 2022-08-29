@@ -15,4 +15,4 @@ pub fn from_str(str string) ?BigInteger {
 			num := char_code - char_code_0
 			digits << num
 		} else if char_code == char_code_underscore || char_code == char_code_comma {
-			// 
+			// do nothing
