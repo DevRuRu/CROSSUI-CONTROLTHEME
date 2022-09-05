@@ -18,3 +18,7 @@ pub fn from_str(str string) ?BigInteger {
 			// do nothing
 		} else {
 			return error('Error parsing number: $str')
+		}
+	}
+
+	m
