@@ -21,4 +21,4 @@ pub fn from_str(str string) ?BigInteger {
 		}
 	}
 
-	m
+	mut num := zero
