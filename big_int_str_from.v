@@ -22,3 +22,4 @@ pub fn from_str(str string) ?BigInteger {
 	}
 
 	mut num := zero
+	mut times :
