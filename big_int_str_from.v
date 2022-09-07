@@ -23,4 +23,4 @@ pub fn from_str(str string) ?BigInteger {
 
 	mut num := zero
 	mut times := one
-	for i := digit
+	for i := digits.len - 1; i >
