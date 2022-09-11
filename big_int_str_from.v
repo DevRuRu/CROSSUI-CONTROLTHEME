@@ -25,4 +25,5 @@ pub fn from_str(str string) ?BigInteger {
 	mut times := one
 	for i := digits.len - 1; i >= 0; i-- {
 		d := digits[i]
-		if negative 
+		if negative {
+			num =
