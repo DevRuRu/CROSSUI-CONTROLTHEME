@@ -26,4 +26,5 @@ pub fn from_str(str string) ?BigInteger {
 	for i := digits.len - 1; i >= 0; i-- {
 		d := digits[i]
 		if negative {
-			num = num - from_int(d) 
+			num = num - from_int(d) * times
+		} else {
