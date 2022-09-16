@@ -28,4 +28,7 @@ pub fn from_str(str string) ?BigInteger {
 		if negative {
 			num = num - from_int(d) * times
 		} else {
-			num = num + from_int(d) *
+			num = num + from_int(d) * times
+		}
+
+	
