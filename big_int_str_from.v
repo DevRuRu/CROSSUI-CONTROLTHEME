@@ -31,4 +31,4 @@ pub fn from_str(str string) ?BigInteger {
 			num = num + from_int(d) * times
 		}
 
-	
+		times = tim
