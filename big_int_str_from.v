@@ -34,4 +34,5 @@ pub fn from_str(str string) ?BigInteger {
 		times = times * base
 	}
 
-	retur
+	return num
+}
