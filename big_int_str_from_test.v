@@ -1,3 +1,3 @@
 module biginteger
 
-fn test
+fn test_from_str_n
