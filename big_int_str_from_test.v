@@ -6,4 +6,4 @@ fn test_from_str_neg_zero() {
 }
 
 fn test_from_str_big() {
-	
+	str := '2
