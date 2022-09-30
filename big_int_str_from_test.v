@@ -5,4 +5,4 @@ fn test_from_str_neg_zero() {
 	assert n.str() == '0'
 }
 
-fn tes
+fn test_from_
