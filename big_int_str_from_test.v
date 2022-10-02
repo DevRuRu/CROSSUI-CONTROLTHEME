@@ -6,4 +6,4 @@ fn test_from_str_neg_zero() {
 }
 
 fn test_from_str_big() {
-	str := '233333333
+	str := '23333333333333333
