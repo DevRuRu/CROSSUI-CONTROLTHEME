@@ -7,4 +7,4 @@ fn test_from_str_neg_zero() {
 
 fn test_from_str_big() {
 	str := '23333333333333333333333333333333333333333333333333333333333333333333333333333333333333'
-	n := from_str(
+	n := from_str(str) or { pan
