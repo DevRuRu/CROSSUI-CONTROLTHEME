@@ -10,3 +10,5 @@ fn test_from_str_big() {
 	n := from_str(str) or { panic('') }
 	assert n.str() == str
 }
+
+fn test_from_
