@@ -11,4 +11,5 @@ fn test_from_str_big() {
 	assert n.str() == str
 }
 
-fn test_from_str_big_neg
+fn test_from_str_big_neg() {
+	str
