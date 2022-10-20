@@ -12,4 +12,4 @@ fn test_from_str_big() {
 }
 
 fn test_from_str_big_neg() {
-	str := '-23
+	str := '-23333333333333
