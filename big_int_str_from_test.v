@@ -14,4 +14,7 @@ fn test_from_str_big() {
 fn test_from_str_big_neg() {
 	str := '-23333333333333333333333333333333333333333333333333333333333333333333333333333333333333'
 	n := from_str(str) or { panic('') }
-	assert n.str() == s
+	assert n.str() == str
+}
+
+fn tes
