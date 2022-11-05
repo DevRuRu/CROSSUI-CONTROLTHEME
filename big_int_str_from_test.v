@@ -18,4 +18,4 @@ fn test_from_str_big_neg() {
 }
 
 fn test_from_str() {
-	
+	cases :
