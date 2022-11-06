@@ -18,4 +18,4 @@ fn test_from_str_big_neg() {
 }
 
 fn test_from_str() {
-	cases := ['0', '28
+	cases := ['0', '288', '-288', '-2
