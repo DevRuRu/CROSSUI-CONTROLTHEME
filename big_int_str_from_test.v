@@ -21,4 +21,4 @@ fn test_from_str() {
 	cases := ['0', '288', '-288', '-22', '22', '3', '-3']
 	for str in cases {
 		n := from_str(str) or { panic('') }
-		asser
+		assert n.str() ==
