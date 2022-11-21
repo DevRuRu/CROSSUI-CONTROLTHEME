@@ -2,4 +2,4 @@ module biginteger
 
 import strings
 
-pu
+pub fn (big
