@@ -3,4 +3,4 @@ module biginteger
 import strings
 
 pub fn (big BigInteger) str() string {
-	if big.sign =
+	if big.sign == .zero
