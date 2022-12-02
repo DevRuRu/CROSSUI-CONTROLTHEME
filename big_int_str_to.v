@@ -7,4 +7,4 @@ pub fn (big BigInteger) str() string {
 		return '0'
 	}
 	// TODO: optimize init size
-	mut builder :=
+	mut builder := strings.new_b
