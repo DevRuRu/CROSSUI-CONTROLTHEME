@@ -8,4 +8,4 @@ pub fn (big BigInteger) str() string {
 	}
 	// TODO: optimize init size
 	mut builder := strings.new_builder(1)
-	if
+	if big.sign == .ne
