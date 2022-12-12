@@ -12,4 +12,5 @@ pub fn (big BigInteger) str() string {
 		builder.write_string('-')
 	}
 
-	base :=
+	base := u32(10)
+	
