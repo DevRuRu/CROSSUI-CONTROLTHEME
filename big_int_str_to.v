@@ -13,4 +13,4 @@ pub fn (big BigInteger) str() string {
 	}
 
 	base := u32(10)
-	
+	mut txt := ''
