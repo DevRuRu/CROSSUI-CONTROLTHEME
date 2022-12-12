@@ -9,4 +9,5 @@ pub fn (big BigInteger) str() string {
 	// TODO: optimize init size
 	mut builder := strings.new_builder(1)
 	if big.sign == .negative {
-		builder.write_
+		builder.write_string('-')
+	}
