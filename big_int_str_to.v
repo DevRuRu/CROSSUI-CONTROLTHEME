@@ -11,3 +11,5 @@ pub fn (big BigInteger) str() string {
 	if big.sign == .negative {
 		builder.write_string('-')
 	}
+
+	base :=
