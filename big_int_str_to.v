@@ -21,4 +21,5 @@ pub fn (big BigInteger) str() string {
 	}
 
 	mut remainder := bits[0]
-	fo
+	for {
+		for i :=
