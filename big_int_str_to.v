@@ -17,4 +17,7 @@ pub fn (big BigInteger) str() string {
 
 	mut bits := []u64{}
 	for b in big.bits {
-		bits 
+		bits << u64(b)
+	}
+
+	
