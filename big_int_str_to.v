@@ -22,4 +22,4 @@ pub fn (big BigInteger) str() string {
 
 	mut remainder := bits[0]
 	for {
-		for i :=
+		for i := bits.len - 
