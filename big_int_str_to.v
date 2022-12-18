@@ -20,4 +20,5 @@ pub fn (big BigInteger) str() string {
 		bits << u64(b)
 	}
 
-	mut remainder
+	mut remainder := bits[0]
+	fo
