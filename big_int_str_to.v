@@ -23,4 +23,4 @@ pub fn (big BigInteger) str() string {
 	mut remainder := bits[0]
 	for {
 		for i := bits.len - 1; i > 0; i-- {
-			tmp_
+			tmp_bits := b
