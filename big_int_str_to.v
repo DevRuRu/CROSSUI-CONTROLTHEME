@@ -24,4 +24,4 @@ pub fn (big BigInteger) str() string {
 	for {
 		for i := bits.len - 1; i > 0; i-- {
 			tmp_bits := bits[i]
-			tm
+			tmp_bits_mo
