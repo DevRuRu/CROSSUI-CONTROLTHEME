@@ -25,4 +25,4 @@ pub fn (big BigInteger) str() string {
 		for i := bits.len - 1; i > 0; i-- {
 			tmp_bits := bits[i]
 			tmp_bits_mod := tmp_bits % base
-			tmp_bits_remaider
+			tmp_bits_remaider := tmp
