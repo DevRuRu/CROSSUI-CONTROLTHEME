@@ -29,4 +29,5 @@ pub fn (big BigInteger) str() string {
 			if tmp_bits_remaider > 0 {
 				bits[i] = tmp_bits_remaider
 			} else {
-				bits.delete_l
+				bits.delete_last()
+		
