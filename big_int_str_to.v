@@ -32,4 +32,4 @@ pub fn (big BigInteger) str() string {
 				bits.delete_last()
 			}
 
-			if tmp
+			if tmp_bits_mod > 0 
