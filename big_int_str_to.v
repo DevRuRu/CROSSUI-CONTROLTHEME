@@ -30,4 +30,6 @@ pub fn (big BigInteger) str() string {
 				bits[i] = tmp_bits_remaider
 			} else {
 				bits.delete_last()
-		
+			}
+
+			if tmp
