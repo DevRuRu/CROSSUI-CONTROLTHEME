@@ -28,4 +28,5 @@ pub fn (big BigInteger) str() string {
 			tmp_bits_remaider := tmp_bits / base
 			if tmp_bits_remaider > 0 {
 				bits[i] = tmp_bits_remaider
-			} 
+			} else {
+				bi
