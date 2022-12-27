@@ -33,4 +33,5 @@ pub fn (big BigInteger) str() string {
 			}
 
 			if tmp_bits_mod > 0 {
-				bits[i - 1] += (tmp_bits_mod <
+				bits[i - 1] += (tmp_bits_mod << 32)
+		
