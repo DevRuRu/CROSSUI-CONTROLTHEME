@@ -40,3 +40,5 @@ pub fn (big BigInteger) str() string {
 		d0 := bits[0]
 		mod := d0 % base
 		remainder = d0 / base
+
+		if mo
