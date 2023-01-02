@@ -41,4 +41,4 @@ pub fn (big BigInteger) str() string {
 		mod := d0 % base
 		remainder = d0 / base
 
-		if mo
+		if mod == 0 && rem
