@@ -47,3 +47,6 @@ pub fn (big BigInteger) str() string {
 			txt = '$mod$txt'
 			bits[0] = remainder
 		}
+	}
+
+	build
