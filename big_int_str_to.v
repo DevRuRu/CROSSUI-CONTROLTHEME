@@ -42,4 +42,5 @@ pub fn (big BigInteger) str() string {
 		remainder = d0 / base
 
 		if mod == 0 && remainder == 0 && bits.len == 1 {
-	
+			break
+		} 
