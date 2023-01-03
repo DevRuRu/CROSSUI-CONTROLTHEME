@@ -50,4 +50,4 @@ pub fn (big BigInteger) str() string {
 	}
 
 	builder.write_string(txt)
-	ret
+	ret := builder.str()
