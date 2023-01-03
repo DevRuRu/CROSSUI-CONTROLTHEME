@@ -45,4 +45,5 @@ pub fn (big BigInteger) str() string {
 			break
 		} else {
 			txt = '$mod$txt'
-			bits[0] = 
+			bits[0] = remainder
+		}
