@@ -49,4 +49,4 @@ pub fn (big BigInteger) str() string {
 		}
 	}
 
-	build
+	builder.write_st
