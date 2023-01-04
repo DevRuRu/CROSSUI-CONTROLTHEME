@@ -1,3 +1,4 @@
 module biginteger
 
-fn test_multiply
+fn test_multiply() {
+	a :=
