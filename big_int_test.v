@@ -1,4 +1,4 @@
 module biginteger
 
 fn test_multiply() {
-	a :=
+	a := from_str('123456
