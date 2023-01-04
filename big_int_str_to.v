@@ -51,3 +51,5 @@ pub fn (big BigInteger) str() string {
 
 	builder.write_string(txt)
 	ret := builder.str()
+	return ret
+}
