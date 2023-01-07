@@ -7,4 +7,4 @@ fn test_multiply() {
 	assert '${a * b}' == '1219326311370217952237463801111263526900'
 }
 
-fn
+fn test_mult1() {
