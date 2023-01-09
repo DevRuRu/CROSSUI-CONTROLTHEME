@@ -8,4 +8,4 @@ fn test_multiply() {
 }
 
 fn test_mult1() {
-	a := from_str('123456
+	a := from_str('12345678901234567890'
