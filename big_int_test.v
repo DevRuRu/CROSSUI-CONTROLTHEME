@@ -8,4 +8,4 @@ fn test_multiply() {
 }
 
 fn test_mult1() {
-	a :=
+	a := from_str
