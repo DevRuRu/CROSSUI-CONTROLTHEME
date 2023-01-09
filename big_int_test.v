@@ -9,4 +9,4 @@ fn test_multiply() {
 
 fn test_mult1() {
 	a := from_str('12345678901234567890') or { panic('') }
-	b :=
+	b := from_str('2
