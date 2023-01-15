@@ -14,4 +14,5 @@ fn test_mult1() {
 	assert '${a * b}' == '3474999681202237152443873718435840'
 }
 
-fn test_mult2()
+fn test_mult2() {
+	a := from
