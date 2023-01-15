@@ -15,4 +15,4 @@ fn test_mult1() {
 }
 
 fn test_mult2() {
-	a := from_str('12345
+	a := from_str('1234567890123456789
