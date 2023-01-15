@@ -16,4 +16,4 @@ fn test_mult1() {
 
 fn test_mult2() {
 	a := from_str('12345678901234567890') or { panic('') }
-	// b := from_str('281474976710656') o
+	// b := from_str('281474976710656') or { panic(
