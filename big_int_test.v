@@ -21,4 +21,4 @@ fn test_mult2() {
 	assert '${a.lshift(48)}' == '3474999681202237152443873718435840'
 }
 
-fn test_
+fn test_mult3()
