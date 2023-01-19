@@ -18,4 +18,4 @@ fn test_mult2() {
 	a := from_str('12345678901234567890') or { panic('') }
 	// b := from_str('281474976710656') or { panic('') }
 
-	assert '${a.lshift(4
+	assert '${a.lshift(48)}' == '347
