@@ -23,4 +23,4 @@ fn test_mult2() {
 
 fn test_mult3() {
 	mut a := from_str('12345678901234567890') or { panic('') }
-	
+	a = a.lshift(2
