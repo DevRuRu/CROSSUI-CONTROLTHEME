@@ -27,4 +27,4 @@ fn test_mult3() {
 	mut b := from_str('281474976710656') or { panic('') }
 	b = b.lshift(4)
 
-	assert '${a * b}' == '22239997959694
+	assert '${a * b}' == '22239997959694317775640
