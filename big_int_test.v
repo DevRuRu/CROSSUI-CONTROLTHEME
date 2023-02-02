@@ -30,4 +30,5 @@ fn test_mult3() {
 	assert '${a * b}' == '222399979596943177756407917979893760'
 }
 
-fn test_div
+fn test_div1() {
+	a := f
