@@ -31,4 +31,4 @@ fn test_mult3() {
 }
 
 fn test_div1() {
-	a := f
+	a := from_str('123
