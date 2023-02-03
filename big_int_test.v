@@ -32,4 +32,4 @@ fn test_mult3() {
 
 fn test_div1() {
 	a := from_str('12345678901234567890') or { panic('') }
-	b := from_str('2814749
+	b := from_str('281474976710656
