@@ -34,4 +34,7 @@ fn test_div1() {
 	a := from_str('12345678901234567890') or { panic('') }
 	b := from_str('281474976710656') or { panic('') }
 
-	assert '${a / b}' == '4
+	assert '${a / b}' == '43860'
+}
+
+fn 
