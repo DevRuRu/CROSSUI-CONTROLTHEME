@@ -37,4 +37,5 @@ fn test_div1() {
 	assert '${a / b}' == '43860'
 }
 
-fn test_div2(
+fn test_div2() {
+	a := fro
