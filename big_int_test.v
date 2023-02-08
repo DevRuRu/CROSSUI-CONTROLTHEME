@@ -38,4 +38,4 @@ fn test_div1() {
 }
 
 fn test_div2() {
-	a := from_str('123456
+	a := from_str('123456789012345678
