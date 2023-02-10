@@ -41,4 +41,7 @@ fn test_div2() {
 	a := from_str('12345678901234567890') or { panic('') }
 	// b := from_str('281474976710656') or { panic('') }
 
-	assert '${a.rshift(48)}' == '4
+	assert '${a.rshift(48)}' == '43860'
+}
+
+fn test
