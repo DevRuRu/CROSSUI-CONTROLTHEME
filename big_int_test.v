@@ -44,4 +44,4 @@ fn test_div2() {
 	assert '${a.rshift(48)}' == '43860'
 }
 
-fn test
+fn test_tailing_zeros(
