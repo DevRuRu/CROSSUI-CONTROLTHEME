@@ -46,4 +46,5 @@ fn test_div2() {
 
 fn test_tailing_zeros() {
 	assert zero.trailing_zeros() == 0
-	assert one.trailing_zeros() ==
+	assert one.trailing_zeros() == 0
+	assert t
