@@ -54,4 +54,4 @@ fn test_tailing_zeros() {
 	}
 }
 
-fn test_lea
+fn test_leading_zero
