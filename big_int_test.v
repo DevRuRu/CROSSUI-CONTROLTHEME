@@ -49,4 +49,4 @@ fn test_tailing_zeros() {
 	assert one.trailing_zeros() == 0
 	assert two.trailing_zeros() == 1
 	for i in 0 .. 128 {
-		big :=
+		big := one.lshift(u6
