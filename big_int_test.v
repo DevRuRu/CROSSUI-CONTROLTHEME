@@ -53,3 +53,5 @@ fn test_tailing_zeros() {
 		assert big.trailing_zeros() == i
 	}
 }
+
+fn test_lea
