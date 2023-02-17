@@ -55,4 +55,4 @@ fn test_tailing_zeros() {
 }
 
 fn test_leading_zeros() {
-	assert zero.le
+	assert zero.leading_zeros() 
