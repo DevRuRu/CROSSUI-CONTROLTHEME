@@ -56,4 +56,5 @@ fn test_tailing_zeros() {
 
 fn test_leading_zeros() {
 	assert zero.leading_zeros() == 32
-	assert one.leading_ze
+	assert one.leading_zeros() == 31
+	assert 
