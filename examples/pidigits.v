@@ -24,3 +24,21 @@ fn main() {
 	one := biginteger.one
 	two := biginteger.two
 	ten := biginteger.ten
+
+	mut sb := strings.new_builder(12 + n.str().len)
+	unsafe {
+		defer {
+			sb.free()
+		}
+	}
+	for {
+		u = n1 / d
+		v = n2 / d
+		u_int := u.int()
+		v_int := v.int()
+
+		if u_int == v_int {
+			sb.write_byte(u_int.str()[0])
+			digits_printed++
+			digits_printed_mod_ten := digits_printed % 10
+			if digits_printed_mod_ten == 0 {
