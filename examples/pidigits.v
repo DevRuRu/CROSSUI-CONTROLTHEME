@@ -59,3 +59,18 @@ fn main() {
 			}
 
 			to_minus := u * ten * d
+			n1 = n1 * ten - to_minus
+			n2 = n2 * ten - to_minus
+		} else {
+			k2 := k * two
+			u = n1 * (k2 - one)
+			v = n2 * two
+			w = n1 * (k - one)
+			n1 = u + v
+			u = n2 * (k + two)
+			n2 = w + u
+			d = d * (k2 + one)
+			k += one
+		}
+	}
+}
