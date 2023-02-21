@@ -42,3 +42,20 @@ fn main() {
 			digits_printed++
 			digits_printed_mod_ten := digits_printed % 10
 			if digits_printed_mod_ten == 0 {
+				sb.write_string('\t:$digits_printed')
+				println(sb.str())
+				sb.go_back_to(0)
+			}
+
+			if digits_printed >= digits_to_print {
+				if digits_printed_mod_ten > 0 {
+					for _ in 0 .. (10 - digits_printed_mod_ten) {
+						sb.write_byte(` `)
+					}
+					sb.write_string('\t:$digits_printed')
+					println(sb.str())
+				}
+				return
+			}
+
+			to_minus := u * ten * d
